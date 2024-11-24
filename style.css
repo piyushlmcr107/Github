@@ -10,13 +10,18 @@ body{
     
     background-image: url("githubimage.jpeg");
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+  
+    background-position: center;
     
 }
 
 .piyush{
-    font-size: 50px;
-    transform: translateX(40vw) translateY(40vh);
+     font-size: 50px;
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
